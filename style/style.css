@@ -1,0 +1,45 @@
+h1 {
+    font-size: 48px;
+    font-family: 'Sonsie One';
+}
+
+body {
+    --grad-bot: #0FAB91;
+    --grad-top: #1B68AE;
+    --contrast: #A668D5;
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+}
+
+.title-part {
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+    box-shadow: 0 0 5px black;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.area-part{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    font-family: "Oxygen";
+    font-size: 32px;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 15px;
+}
+
+.square {
+    background: linear-gradient(var(--grad-top) 80%, var(--grad-bot));
+    border: 5px solid whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: 100ms;
+    color: whitesmoke;
+    width: 8rem;
+    height: 8rem;
+}
